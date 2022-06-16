@@ -80,7 +80,7 @@
 
 ​	
 
-### ■ Garbage Classification Automation with Indy-10(Neuro-Meka)
+### ■ Garbage Classification Automation
 
 ​		[Reference Link](https://github.com/Hongsehyun/2022_1_DigitalTwin_Automation/blob/main/Project%20%232/md_files/4.%20Garbage_Classification_Automation.md)
 
