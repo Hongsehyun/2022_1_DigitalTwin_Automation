@@ -64,19 +64,19 @@
 
 ### ■ Demo Scenario  
 
-​		[Reference Link](https://github.com/Hongsehyun/2022-1_DTA_Garbage_Classification/blob/main/md_files/1.%20Demo_Scenario.md)
+​		[Reference Link](https://github.com/Hongsehyun/2022_1_DigitalTwin_Automation/blob/main/Project%20%232/md_files/1.%20Demo_Scenario.md)
 
 ​	
 
 ### ■ Garbage Classification Hardware Setting
 
-​		[Reference Link](https://github.com/Hongsehyun/2022-1_DTA_Garbage_Classification/blob/main/md_files/2.%20Garbage_Classification_Hardware_Setting.md)
+​		[Reference Link](https://github.com/Hongsehyun/2022_1_DigitalTwin_Automation/blob/main/Project%20%232/md_files/2.%20Garbage_Classification_Hardware_Setting.md)
 
 ​	
 
 ### ■ Garbage Classification Image Processing
 
-​		[Reference Link](https://github.com/Hongsehyun/2022-1_DTA_Garbage_Classification/blob/main/md_files/3.%20Garbage_Classification_Image_Processing.md)
+​		[Reference Link](https://github.com/Hongsehyun/2022_1_DigitalTwin_Automation/blob/main/Project%20%232/md_files/3.%20Garbage_Classification_Image_Processing.md)
 
 ​	
 
@@ -88,6 +88,6 @@
 
 ### ■ Demonstrate Project Results
 
-​		[Reference Link](https://github.com/Hongsehyun/2022-1_DTA_Garbage_Classification/blob/main/md_files/5.%20Demonstrate_Project_Result.md)
+​		[Reference Link](https://github.com/Hongsehyun/2022_1_DigitalTwin_Automation/blob/main/Project%20%232/md_files/5.%20Demonstrate_Project_Result.md)
 
 ​	
