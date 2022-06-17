@@ -22,7 +22,9 @@
 
 이 Repository는 한동대학교 2022년 1학기에 진행된 DigitalTwin & Automation 수업의 기말 프로젝트인, **생활 폐기물 재활용률 향상을 위한 재활용 쓰레기 분류 로봇의 설계 및 구현** (Design and Implementation of Garbage Classification Robot to Improve Recycling Rate of Household Waste) 에 대한 **튜토리얼**이 포함되어 있습니다.
 
-재활용 쓰레기 자동 분류 공정 구현이 목적이었기에, **컨베이어 벨트 구동 및 하드웨어 설계 파트**, **재활용 쓰레기 분류 및 영상 처리 파트**, **Indy-10(Neuro-Meka)를 활용한 재활용 쓰레기 분류 자동화 파트**로 세분화하여 이번 프로젝트를 진행하였습니다.
+2022년 3월에 방송된 [뉴스](https://www.youtube.com/watch?v=B9cGYrFSuiI&ab_channel=SBS%EB%89%B4%EC%8A%A4)에 의하면 생활폐기물의 재활용률은 약 50%에서 정체상태라고 합니다. 생활폐기물 분리배출은 소비자의 자발적 협조에 기반하여 시행되고 있기 때문에 획기적인 재활용률 제고에는 한계가 있다고 판단할 수 있었으며, 이에 따라 재활용품을 선별해주는 로봇의 필요성을 생각하였습니다.
+
+이와 같이, 재활용 쓰레기 자동 분류 공정 구현이 목적이었기에, **컨베이어 벨트 구동 및 하드웨어 설계 파트**, **재활용 쓰레기 분류 및 영상 처리 파트**, **Indy-10(Neuro-Meka)를 활용한 재활용 쓰레기 분류 자동화 파트**로 세분화하여 이번 프로젝트를 진행하였습니다.
 
 ​	
 
@@ -48,9 +50,7 @@
 
 ## Requirements
 
-본 프로젝트에서는 **Python 3.9.7 버전**, **OpenCV 4.5.5 버전**, **Tensorflow 2.9.0 버전**, **Torch 1.11.0 버전**을 사용하였습니다. 특히, 이 프로젝트에서 사용하고 있는  FastAI의 Library를 사용하기 위해서는 **FastAI 1.0.61. 버전**이 필요합니다.
-
-한편, **Resnet34**를 이용한 Model Train과정에서는 **NVIDIA GeForce RTX 3060 Laptop GPU cuda device** 환경에서 15 epochs 학습에 평균 20분이 소모되었습니다. 따라서, 고성능의 GPU 환경을 갖춘뒤 Model Train을 진행하길 권장합니다. 딥러닝 학습 환경이 갖추어지지 못한 경우라면, 이번 프로젝트에서 pre-trained된 model파일을 같이 첨부하였으므로 이를 참고하시면 되겠습니다. 
+본 프로젝트의 재활용 쓰레기 분류 및 영상 처리 파트에서는 **Python 3.9.7 버전**, **OpenCV 4.5.5 버전**, **Tensorflow 2.9.0 버전**, **Torch 1.11.0 버전**을 사용하였습니다. 특히, 이 프로젝트에서 사용하고 있는  FastAI의 Library를 사용하기 위해서는 **FastAI 1.0.61. 버전**이 필요합니다. 한편, **Resnet34**를 이용한 Model Train과정에서는 **NVIDIA GeForce RTX 3060 Laptop GPU cuda device** 환경에서 15 epochs 학습에 평균 20분이 소모되었습니다. 따라서, 고성능의 GPU 환경을 갖춘뒤 Model Train을 진행하길 권장합니다. 딥러닝 학습 환경이 갖추어지지 못한 경우라면, 이번 프로젝트에서 pre-trained된 model파일을 같이 첨부하였으므로 이를 참고하시면 되겠습니다. 
 
 ​	
 
@@ -62,26 +62,30 @@
 
 ![image](https://user-images.githubusercontent.com/84533279/174224345-9166a9de-ad86-417d-af0c-eadd3f9b8b65.png)
 
-​	1. Conveyor_Belt_Driving :: 
+​		
 
-​	2. Garbage_Classification_ImageProcessing ::
+​	Conveyor_Belt_Driving :: 컨베이어 벨트 구동 튜토리얼
 
-​	3. Garbage_Classification_Automation ::
+​	Garbage_Classification_ImageProcessing :: Garbage Classification Model 학습과 저장 및 생성된 모델 기반의 실시간 영상 처리 튜토리얼
 
-​	md_files ::
+​	Garbage_Classification_Automation :: 영상 처리 및 Indy-10(Neuro-Meka)로봇의 통신, 좌표 설정을 통한 로봇 제어와 자동화 튜토리얼
 
-​	Pre-trained Data and Model.zip ::
+​	md_files :: 본 Repository에서 제공하고 있는 Reference Markdown File을 모아둔 폴더
 
-​
+​	Pre-trained Data and Model.zip :: Garbage Classification 학습이 완료된 Model과 당시 학습에 사용된 Data를 저장해둔 Zip 파일
 
-​
+​	
 
-​
+​	
+
+​	
+
+
 ## Contents
 
 ​	
 
-### ■ Demo Scenario  
+### ■ Demo Scenario & Demo Video
 
 ​		[Reference Link](https://github.com/Hongsehyun/2022_1_DigitalTwin_Automation/blob/main/Project%20%232/md_files/1.%20Demo_Scenario.md)
 
@@ -105,12 +109,6 @@
 
 ​	
 
-### ■ Demonstrate Project Results
-
-​		[Reference Link](https://github.com/Hongsehyun/2022_1_DigitalTwin_Automation/blob/main/Project%20%232/md_files/5.%20Demonstrate_Project_Result.md)
-
-​	
-
 ​	
 
 ​	
@@ -119,4 +117,6 @@
 
 ​		[Reference Link - Kaggle Garbage Classification Dataset](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification)
 
-​		[Reference Link - Prior Research of Garbage Image Training](https://github.com/gibiee/Trash_Classification)
+​		[Reference Link - Preliminary Study on Garbage Image Training](https://github.com/gibiee/Trash_Classification)
+
+​	
