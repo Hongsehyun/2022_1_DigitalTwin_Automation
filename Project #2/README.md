@@ -58,6 +58,23 @@
 
 ​	
 
+## File Description
+
+​	1. Conveyor_Belt_Driving                  :: 베이어벨트의 
+
+​	2. Garbage_Classification_ImageProcessing ::
+
+​	3. Garbage_Classification_Automation      ::
+
+​	md_files                                  ::
+
+​	Pre-trained Data and Model.zip            ::
+
+​
+
+​
+
+​
 ## Contents
 
 ​	
@@ -91,3 +108,13 @@
 ​		[Reference Link](https://github.com/Hongsehyun/2022_1_DigitalTwin_Automation/blob/main/Project%20%232/md_files/5.%20Demonstrate_Project_Result.md)
 
 ​	
+
+​	
+
+​	
+
+## Reference
+
+​		[Reference Link - Kaggle Garbage Classification Dataset](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification)
+
+​		[Reference Link - Prior Research of Garbage Image Training](https://github.com/gibiee/Trash_Classification)
