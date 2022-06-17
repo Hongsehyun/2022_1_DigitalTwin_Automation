@@ -60,7 +60,7 @@
 
 ## File Description
 
-![image](https://user-images.githubusercontent.com/84533279/174224230-bc733c82-bb89-4b0c-95ae-fc689c9414cb.png)
+![image](https://user-images.githubusercontent.com/84533279/174224313-cc17a366-6973-43c0-802f-f85579121361.png)
 
 ​	1. Conveyor_Belt_Driving :: 
 
