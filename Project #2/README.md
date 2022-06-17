@@ -60,15 +60,17 @@
 
 ## File Description
 
-​	1. Conveyor_Belt_Driving                  :: 베이어벨트의 
+![image](https://user-images.githubusercontent.com/84533279/174224230-bc733c82-bb89-4b0c-95ae-fc689c9414cb.png)
+
+​	1. Conveyor_Belt_Driving :: 
 
 ​	2. Garbage_Classification_ImageProcessing ::
 
-​	3. Garbage_Classification_Automation      ::
+​	3. Garbage_Classification_Automation ::
 
-​	md_files                                  ::
+​	md_files ::
 
-​	Pre-trained Data and Model.zip            ::
+​	Pre-trained Data and Model.zip ::
 
 ​
 
