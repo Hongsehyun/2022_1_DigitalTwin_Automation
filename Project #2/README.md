@@ -64,15 +64,15 @@
 
 ​		
 
-​	Conveyor_Belt_Driving :: 컨베이어 벨트 구동 튜토리얼
+​	**Conveyor_Belt_Driving** :: 컨베이어 벨트 구동 튜토리얼
 
-​	Garbage_Classification_ImageProcessing :: Garbage Classification Model 학습과 저장 및 생성된 모델 기반의 실시간 영상 처리 튜토리얼
+​	**Garbage_Classification_ImageProcessing** :: Garbage Classification Model 학습과 저장 및 생성된 모델 기반의 실시간 영상 처리 튜토리얼
 
-​	Garbage_Classification_Automation :: 영상 처리 및 Indy-10(Neuro-Meka)로봇의 통신, 좌표 설정을 통한 로봇 제어와 자동화 튜토리얼
+​	**Garbage_Classification_Automation** :: 영상 처리 및 Indy-10(Neuro-Meka)로봇의 통신, 좌표 설정을 통한 로봇 제어와 자동화 튜토리얼
 
-​	md_files :: 본 Repository에서 제공하고 있는 Reference Markdown File을 모아둔 폴더
+​	**md_files** :: 본 Repository에서 제공하고 있는 Reference Markdown File을 모아둔 폴더
 
-​	Pre-trained Data and Model.zip :: Garbage Classification 학습이 완료된 Model과 당시 학습에 사용된 Data를 저장해둔 Zip 파일
+​	**Pre-trained Data and Model.zip** :: Garbage Classification 학습이 완료된 Model과 당시 학습에 사용된 Data를 저장해둔 Zip 파일
 
 ​	
 
@@ -87,7 +87,7 @@
 
 ### ■ Demo Scenario & Demo Video
 
-​		[Reference Link](https://github.com/Hongsehyun/2022_1_DigitalTwin_Automation/blob/main/Project%20%232/md_files/1.%20Demo_Scenario.md)
+​		[Reference Link](https://github.com/Hongsehyun/2022_1_DigitalTwin_Automation/blob/main/Project%20%232/md_files/1.%20Demo_Scenario_and_Demo_Video.md)
 
 ​	
 
