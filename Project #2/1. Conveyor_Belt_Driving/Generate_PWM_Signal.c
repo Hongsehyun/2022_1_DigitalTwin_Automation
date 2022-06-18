@@ -16,7 +16,6 @@
 #include "ecEXTI.h"
 #include "ecTIM.h"
 #include "ecPWM.h"
-#include "myFunction.h"
 
 #define PWM_PIN		15
 
