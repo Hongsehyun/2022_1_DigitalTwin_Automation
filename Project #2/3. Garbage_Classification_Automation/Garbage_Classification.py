@@ -1,5 +1,3 @@
-# Add libraries freely, if you need.
-
 import warnings
 warnings.filterwarnings('ignore')
 from pathlib import Path
@@ -69,6 +67,8 @@ path = path/"data"            # file = dir / sub_dir_name / file_name     즉, '
 
 width = 600
 height = 300
+
+# 영상 기록을 위한 변수 선언
 fourcc  = cv.VideoWriter_fourcc(*'DIVX')
 frame1  = cv.VideoWriter("frame_src.avi", fourcc, 30, (width, height))
 frame2  = cv.VideoWriter("frame_with_motion_detection.avi", fourcc, 30, (width, height))
@@ -98,6 +98,7 @@ while cap.isOpened():
     frame_src       =  cv.flip(frame, 1)
     frame_dst       =  cv.flip(frame, 1)
     
+    # x축 방향의 위치 정보를 pixel 단위로 출력하기
     cv.putText(frame_dst, 'Cam ON', (10, 55), cv.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
     cv.putText(frame_dst, '100', (100, 290), cv.FONT_HERSHEY_PLAIN, 1, (0, 0, 255), 1)
     cv.putText(frame_dst, '200', (200, 290), cv.FONT_HERSHEY_PLAIN, 1, (0, 0, 255), 1)
@@ -126,7 +127,7 @@ while cap.isOpened():
     robot_state = f_robot.readline()
     f_robot.close()
     
-
+    # 로봇이 대기모드인지 확인하기
     if  robot_state == '0':   flag_change_ok = 1
     else                  :   flag_change_ok = 0
 
@@ -147,8 +148,7 @@ while cap.isOpened():
 
         # 다음 프레임을 위해 이월
         prev = gray
-
-    # print("flag: ", flag)
+    
     # When object Detected
     if flag == 1:
         # Folder Clearing
@@ -191,6 +191,7 @@ while cap.isOpened():
         cv.putText(frame_dst, yhat[0], (410, 55), cv.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
         cv.putText(frame_src, yhat[0], (410, 55), cv.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
 
+        # 재활용품 분류 정보를 텍스트 파일에 
         f = open('garbage_type.txt', 'w')
         f.write(yhat[0])
         f.close()
@@ -201,12 +202,11 @@ while cap.isOpened():
         flag = 0
         time.sleep(1)
             
-
-
     # Cam Printing
     cv.imshow('OpticalFlow-Farneback', frame_dst)
     cv.imshow('Original_Cam', frame_src)
 
+    # 영상 기록하기
     frame1.write(frame_src)
     frame2.write(frame_dst)
     
