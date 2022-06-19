@@ -66,7 +66,7 @@
 
 ​		
 
-​	**Conveyor_Belt_Driving** :: 컨베이어 벨트 구동 튜토리얼
+​	**Hardware_Setting** :: 컨베이어 벨트 구동 튜토리얼
 
 ​	**Garbage_Classification_ImageProcessing** :: Garbage Classification Model 학습과 저장 및 생성된 모델 기반의 실시간 영상 처리 튜토리얼
 
