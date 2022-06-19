@@ -54,7 +54,7 @@
 
 한편, 본 프로젝트의 재활용 쓰레기 분류 및 영상 처리 파트에서는 **Python 3.9.7 버전**, **OpenCV 4.5.5 버전**, **Tensorflow 2.9.0 버전**, **Torch 1.11.0 버전**을 사용하였습니다. 특히, 이 프로젝트에서 사용하고 있는  FastAI의 Library를 사용하기 위해서는 **FastAI 1.0.61. 버전**이 필요합니다. 한편, **Resnet34**를 이용한 Model Train과정에서는 **NVIDIA GeForce RTX 3060 Laptop GPU cuda device** 환경에서 15 epochs 학습에 평균 20분이 소모되었습니다. 따라서, 고성능의 GPU 환경을 갖춘뒤 Model Train을 진행하길 권장합니다. 딥러닝 학습 환경이 갖추어지지 못한 경우라면, 이번 프로젝트에서 pre-trained된 model파일을 같이 첨부하였으므로 이를 참고하시면 되겠습니다. 
 
-​
+
 
 ​	
 
@@ -66,7 +66,7 @@
 
 ​		
 
-​	**Hardware_Setting** :: 컨베이어 벨트 구동 튜토리얼
+​	**Hardware_Setting** :: 컨베이어 벨트 구동 튜토리얼 및 Support Bar Modeling Solidworks 파일
 
 ​	**Garbage_Classification_ImageProcessing** :: Garbage Classification Model 학습과 저장 및 생성된 모델 기반의 실시간 영상 처리 튜토리얼
 
